@@ -1,0 +1,23 @@
+# Dataset
+data/
+
+# Virtual environment
+venv/
+
+# Archives
+archive/
+
+# Model weights
+*.h5
+
+# Output files
+outputs/
+prediction_output.png
+
+# Cache
+__pycache__/
+*.pyc
+
+# OS junk
+.DS_Store
+Thumbs.db
