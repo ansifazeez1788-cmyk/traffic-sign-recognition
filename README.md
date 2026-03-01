@@ -87,17 +87,16 @@ The final plateau was reached at ~92% official test accuracy.
 
 ## 📈 Final Results
 
-**Official Test Accuracy:** ~92%
+## 📊 Official Test Performance
 
-This plateau remained consistent across:
-- Backbone scaling
-- Resolution increases
-- Fine-tuning depth changes
-- Test-Time Augmentation
+| Metric | Value |
+|--------|-------|
+| Accuracy | 92% |
+| Macro F1 Score | 0.85 |
+| Weighted F1 Score | 0.91 |
+| Test Samples | 12,630 |
 
-This suggests performance is limited by dataset separability rather than model capacity.
-
----
+Performance plateau suggests limitations due to class similarity rather than model capacity.
 
 ## 🖥 Demo
 
